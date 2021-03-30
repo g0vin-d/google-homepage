@@ -1,0 +1,161 @@
+/* ----------------------------------------------*/
+/* Basic Setup */
+/* ----------------------------------------------*/
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+ }
+
+ 
+
+ html {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+ }
+
+ .row {
+    max-width: 33%;
+    margin: 0 auto;
+ }
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----------------------------------------------*/
+/* HEADER */
+/* ----------------------------------------------*/
+
+header {
+    display: block;
+    height: 60px;
+}
+.nav-bar {
+    float: right;
+    list-style: none;
+    font-size: 60%;
+    font-weight: 400;
+    height: 48px;
+    position: relative;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 7px 0px 10px 10px;
+    vertical-align: middle;
+}
+.nav-bar li:last-child{
+    padding-right: 15px;
+}
+.nav-bar i {
+    font-size: 200%;
+    color: #5f6368;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 50%;
+}
+.nav-bar i:hover {
+    background-color: rgb(224, 222, 222);
+}
+.nav-bar li img {
+    height: 35px;
+    border-radius: 50%;
+}
+
+.nav-bar li a:link,
+.nav-bar li a:visited {
+    text-decoration: none;
+    font-weight: 400;
+    font-stretch: 100%;
+    color: black;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-bar li a:hover,
+.nav-bar li a:active {
+    border-bottom: 1px solid black;
+}
+
+/* ----------------------------------------------*/
+/* GOOGLE_LOGO */
+/* ----------------------------------------------*/
+
+.g-bar {
+    height: 290px;
+}
+
+.google-logo figure {
+    width: 272px;
+    height: 290px;
+    margin: 0 auto;
+    position: relative;
+}
+.google-logo figure img {
+    position: absolute;
+    bottom: 0;
+    width: 272px;
+    height: auto;
+}
+
+/* ----------------------------------------------*/
+/* main search bar */
+/* ----------------------------------------------*/
+
+
+.form_group {
+    padding: 30px;
+}
+.form_group .group {
+    padding: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 25px;
+}
+.form_group .group:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+.search-icon{
+    width: 8%;
+    padding-right: 10px;
+    float:left;
+    text-align: center;
+}
+.search-icon i{
+    padding-top: 2px;
+    vertical-align: middle;
+    color:rgba(144, 138, 138, 0.555);
+}
+
+.search-bar {
+    display: inline-block;
+    width: 92%;
+}
+.search-bar input {
+    width: 100%;
+    border: none;
+}
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-buts {
+    text-align: center;
+}
+
+.search-buts button {
+    border: none;
+    font-size: 70%;
+    font-weight: 200;
+    padding: 10px;
+    margin: 0px 5px;
+    background-color: rgba(245, 239, 239, 0.555);
+}
