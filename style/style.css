@@ -152,10 +152,73 @@ header {
 }
 
 .search-buts button {
-    border: none;
+    border: 1px solid transparent;
     font-size: 70%;
     font-weight: 200;
     padding: 10px;
+    width: 140px;
     margin: 0px 5px;
     background-color: rgba(245, 239, 239, 0.555);
+}
+
+.search-buts button:hover {
+    border: 1px solid #f1eeee;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(32,33,36,.28);
+}
+
+
+/* ----------------------------------------------*/
+/* FOOTER */
+/* ----------------------------------------------*/
+
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.country {
+   
+    color:#70757a;
+    padding: 20px 20px 10px 40px;
+    font-size: 70%;
+    border-bottom: 1px solid #dbdbdb;
+}
+.footer-list {
+   
+    padding: 20px 30px 35px 40px;
+    vertical-align: middle;
+    font-size: 70%;
+    color:#70757a;
+}
+.footer-list ul li a:link,
+.footer-list ul li a:visited {
+    text-decoration: none;
+    color:#70757a;
+    border-bottom: 1px solid transparent;
+}
+.footer-list ul li a:hover,
+.footer-list ul li a:active {
+    border-bottom: 1px solid #70757a;
+}
+.left-list {
+    float: left;
+    list-style: none;
+}
+
+.left-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.right-list {
+    float: right;
+    list-style: none;
+}
+
+.right-list  li{
+    display: inline-block;
+    margin-left: 20px;
 }
